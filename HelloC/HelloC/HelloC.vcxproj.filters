@@ -15,7 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.c">
+    <ClCompile Include="function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ifelse.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="play.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="printfscanf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDown.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
