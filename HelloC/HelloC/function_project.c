@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 int getRandomNumber(int level);
 void showQuestion(int level, int num1, int num2);
@@ -55,7 +56,7 @@ int getRandomNumber(int level)
 void showQuestion(int level, int num1, int num2)
 {
 	printf("\n\n\n########## %d 번째 비밀번호 #########\n", level);
-	printf("\n\t%d x %d는?\n\n",num1, num2);
+	printf("\n\t%d x %d는?\n\n", num1, num2);
 	printf("#####################################\n");
 	printf("\n비밀번호를 입력하세요 (종료 : -1) >> ");
 
