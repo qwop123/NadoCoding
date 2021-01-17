@@ -51,6 +51,9 @@
     <ClCompile Include="ifelse.c">
       <Filter>소스 파일\조건&amp;분기</Filter>
     </ClCompile>
+    <ClCompile Include="UpDown.c">
+      <Filter>소스 파일\조건&amp;분기</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
