@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 
 int main(void)
@@ -177,15 +178,14 @@ int main(void)
 //*********
 
 
-		
+	/*	
 		int floor;
 		printf("몇층까지 쌓을까요?\n");
 		scanf_s("%d", &floor);
 		printf("\n\n");
 ;		for (int i = 0; i < floor; i++)
 		{
-			
-			for (int j = i; j < floor; j++)
+			for (int j = i; j < floor - 1; j++)
 			{
 				printf(" ");
 			}
@@ -195,15 +195,46 @@ int main(void)
 			}
 				printf("\n");
 		}
+*/
 
 
 
+//  
+//
+///////////////// 피 라 미 드 쌓 기 ///////////////////
+//
+//	/*int floor;
+//	printf("몇층까지 쌓을까요 :    ");
+//	scanf_s("%d", &floor);
+//	printf("\n\n\n");
+//
+//
+//	for (int i = 0; i < floor; i++)
+//	{
+//		for (int j = i; i < floor - 1; j++)
+//		{
+//			printf(" ");
+//		}
+//		for (int p = 0; p < i * 2 + 1; p++)
+//		{
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//
+//*/
+//              // 숫자 맞히기 //
 
-  
+
+	
+	srand(time(NULL));
+	int num = rand() % 100 + 1;
+	printf("숫자 : %d", num);
+	int answer = 0; // 정답
+	int chance = 5; // 찬스
 
 
-
-
+	
 
 
 

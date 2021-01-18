@@ -51,5 +51,8 @@
     <ClCompile Include="array_project.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="review.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
